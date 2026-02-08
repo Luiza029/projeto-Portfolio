@@ -27,6 +27,9 @@ header{
   display: flex;
   justify-content: end; /* Para colar la na direita, coloca um flex no pai*/
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 #menu ul{
